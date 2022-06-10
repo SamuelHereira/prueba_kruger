@@ -1,0 +1,33 @@
+{
+  "users": [],
+  "roles": {
+    "admin": {
+      "id": 1,
+      "name": "admin",
+      "description": "Administrator"
+    },
+    "user": {
+      "id": 2,
+      "name": "employee",
+      "description": "Employee"
+    }
+  },
+  "user_roles": [
+    {
+      "user_id": 1,
+      "role_id": 1
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "dni": "12345678",
+      "name": "admin",
+      "lastname": "admin",
+      "email": "admin",
+      "birthdate": "2018-01-01",
+      "address": "admin",
+      "phone": "admin"
+    }
+  ]
+}

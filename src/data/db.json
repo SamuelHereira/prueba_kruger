@@ -1,0 +1,51 @@
+{
+  "users": [
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$twclJdYAuS0jCdyxrauVj.FC7YGrD1IZrHiUSgYxK2pkPvEyJjyi2",
+      "employee_id": 1,
+      "id": 1
+    },
+    {
+      "email": "samuelhereira@gmail.com",
+      "password": "$2a$10$MpF3mg9mQmH4fA7TofVrxOWARC6y1sJNsidcHQSXU8/hZq8H6fzJq",
+      "employee_id": 1,
+      "id": 2
+    },
+    {
+      "email": "emily.montes2108@gmail.com",
+      "password": "$2a$10$B9bTPT3SHDtk8OrHyuT41O9HwanRsU/mEqNeDkY/relb/PM8ssUGS",
+      "employee_id": 2,
+      "id": 3
+    }
+  ],
+  "roles": {
+    "admin": {
+      "id": 1,
+      "name": "admin",
+      "description": "Administrator"
+    }
+  },
+  "user_roles": [
+    {
+      "user_id": 1,
+      "role_id": 1
+    }
+  ],
+  "employees": [
+    {
+      "dni": "1751741206",
+      "name": "Samuel",
+      "lastname": "Hereira",
+      "email": "samuelhereira@gmail.com",
+      "phone": "123457899",
+      "address": "Trinitary Island",
+      "birthdate": "2022-06-15",
+      "vaccination_status": "Vaccinated",
+      "vaccinate_type": "AstraZeneca",
+      "vaccination_date": "2022-06-30",
+      "dose_number": "3",
+      "id": 1
+    }
+  ]
+}
