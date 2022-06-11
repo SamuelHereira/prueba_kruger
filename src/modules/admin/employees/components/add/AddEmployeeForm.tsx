@@ -91,7 +91,7 @@ const AddEmployeeForm = () => {
                     ? "An error occurred"
                     : "Employee cannot be updated"
                   : isSuccess
-                  ? "Employee added successfully"
+                  ? "Employee added successfully. To log in use dni as password."
                   : "Employee updated successfully"}
               </Alert>
             </Grid>
